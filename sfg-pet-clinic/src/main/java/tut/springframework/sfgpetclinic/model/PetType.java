@@ -2,16 +2,17 @@ package tut.springframework.sfgpetclinic.model;
 
 public class PetType {
 	
-	private String name;
+	private String petType;
 
-	public String getName() {
-		return name;
+	public String getPetType() {
+		return petType;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setPetType(String petType) {
+		this.petType = petType;
 	}
-	
+
+		
 	
 
 }
