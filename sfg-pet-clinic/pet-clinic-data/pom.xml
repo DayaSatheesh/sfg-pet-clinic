@@ -3,9 +3,14 @@
   <parent>
     <groupId>tut.springframework</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2</version>
   </parent>
   <artifactId>pet-clinic-data</artifactId>
+  
+  <properties>
+  	<spring-boot.repackage.skip>true</spring-boot.repackage.skip>  
+  </properties>
+  
   <dependencies>
   		<dependency>
 			<groupId>org.springframework.boot</groupId>
